@@ -1,0 +1,16 @@
+{
+  "name": "laundry-pricing-backend",
+  "version": "1.0.0",
+  "description": "Backend API pour gestion de pressing",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
